@@ -1,0 +1,92 @@
+.home{
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  position: relative;
+
+  .wrapper{
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+    .imageContainer{
+      height: 250px;
+      width: 250px;
+      border-radius: 50%;
+      border: 2px solid orange;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img{
+        height: 100%;
+        width: auto;
+        border-radius: 100%;
+      }
+    }
+
+    .textContainer{
+        height: 100%;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+
+        h2{
+            font-size: 30px;
+            color: orange;
+            letter-spacing: 10px;
+            text-align: center;
+        }
+
+        h1{
+            font-size: 65px;
+            text-align: center;
+        }
+
+        .buttons{
+            
+            display: flex;
+            gap: 20px;
+            z-index: 20;
+
+            button{
+                padding: 20px;
+                border: 1px solid white;
+                border-radius: 10px;
+                background-color: transparent;
+                color: white;
+                font-size: 15px;
+                cursor: pointer;
+            }
+
+            
+        }
+
+        img{
+            width: 50px;
+        }
+    }
+
+  }
+
+  
+
+ .slidingTextContainer{
+    position: absolute;
+    font-size: 50vh;
+    bottom: 0;
+    white-space: nowrap;
+    color: #ffffff09;
+    width: 50%;
+    font-weight: bold;
+
+  }
+}
+
